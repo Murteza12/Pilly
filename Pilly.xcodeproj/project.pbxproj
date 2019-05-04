@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7103F3BE227C143B0087D036 /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103F3BC227C143B0087D036 /* DateTableViewCell.swift */; };
+		7103F3BF227C143B0087D036 /* DateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7103F3BD227C143B0087D036 /* DateTableViewCell.xib */; };
+		7103F3C2227C14690087D036 /* DatePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103F3C0227C14690087D036 /* DatePickerTableViewCell.swift */; };
+		7103F3C3227C14690087D036 /* DatePickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7103F3C1227C14690087D036 /* DatePickerTableViewCell.xib */; };
+		7107F6CF226B22DC00DE29CD /* PillyModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7107F6CD226B22DC00DE29CD /* PillyModel.xcdatamodeld */; };
 		712221A52268C8A1000879D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712221A42268C8A1000879D7 /* AppDelegate.swift */; };
 		712221A72268C8A1000879D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712221A62268C8A1000879D7 /* ViewController.swift */; };
 		712221AA2268C8A1000879D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712221A82268C8A1000879D7 /* Main.storyboard */; };
@@ -14,6 +19,26 @@
 		712221AF2268C8A3000879D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712221AD2268C8A3000879D7 /* LaunchScreen.storyboard */; };
 		712221BA2268C8A3000879D7 /* PillyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712221B92268C8A3000879D7 /* PillyTests.swift */; };
 		712221C52268C8A3000879D7 /* PillyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712221C42268C8A3000879D7 /* PillyUITests.swift */; };
+		712221D42268E1A2000879D7 /* UiViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712221D32268E1A2000879D7 /* UiViewX.swift */; };
+		712221D62268E1FE000879D7 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712221D52268E1FE000879D7 /* UIButtonX.swift */; };
+		712221D92268E33D000879D7 /* MedicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712221D82268E33D000879D7 /* MedicationVC.swift */; };
+		712221DB22694EFF000879D7 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712221DA22694EFF000879D7 /* SideMenuVC.swift */; };
+		712221DE22694FA1000879D7 /* ExtensionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712221DD22694FA1000879D7 /* ExtensionVC.swift */; };
+		712221E02269598D000879D7 /* AddMedicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712221DF2269598D000879D7 /* AddMedicationVC.swift */; };
+		712221E22269EFF6000879D7 /* RefillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712221E12269EFF6000879D7 /* RefillVC.swift */; };
+		712875A7226DCA6600154CB8 /* ScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712875A6226DCA6600154CB8 /* ScheduleVC.swift */; };
+		714BAFAC226B6784006BC370 /* Colortheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714BAFAB226B6784006BC370 /* Colortheme.swift */; };
+		714BAFAE226B6AF4006BC370 /* colorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714BAFAD226B6AF4006BC370 /* colorCell.swift */; };
+		71530444226B2F3E00044E7E /* RoundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71530443226B2F3E00044E7E /* RoundImage.swift */; };
+		71530449226B3EF400044E7E /* DosageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71530448226B3EF400044E7E /* DosageVC.swift */; };
+		7153044B226B3FC300044E7E /* ColorPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7153044A226B3FC300044E7E /* ColorPhotoVC.swift */; };
+		717665CB226ED1B6002660F4 /* SelctSoudVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717665CA226ED1B6002660F4 /* SelctSoudVC.swift */; };
+		7188401B2271819E00445886 /* MedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7188401A2271819E00445886 /* MedTableViewCell.swift */; };
+		71DBCE32227ABB9000B1F06A /* PrivacyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DBCE31227ABB9000B1F06A /* PrivacyVC.swift */; };
+		71DBCE34227ABE4B00B1F06A /* PrivacyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DBCE33227ABE4B00B1F06A /* PrivacyCell.swift */; };
+		71DBCE36227B1DD500B1F06A /* ReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DBCE35227B1DD500B1F06A /* ReminderVC.swift */; };
+		71F83127227B607B00E1D68E /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F83126227B607B00E1D68E /* ReminderCell.swift */; };
+		D5BE7255950BBE670DEA0DDA /* Pods_Pilly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052E1977EB270A17C589FA57 /* Pods_Pilly.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +59,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		052E1977EB270A17C589FA57 /* Pods_Pilly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pilly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9101565BF93EDEAF914567 /* Pods-Pilly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pilly.debug.xcconfig"; path = "Target Support Files/Pods-Pilly/Pods-Pilly.debug.xcconfig"; sourceTree = "<group>"; };
+		7103F3BC227C143B0087D036 /* DateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
+		7103F3BD227C143B0087D036 /* DateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateTableViewCell.xib; sourceTree = "<group>"; };
+		7103F3C0227C14690087D036 /* DatePickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerTableViewCell.swift; sourceTree = "<group>"; };
+		7103F3C1227C14690087D036 /* DatePickerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatePickerTableViewCell.xib; sourceTree = "<group>"; };
+		7107F6CE226B22DC00DE29CD /* PillyModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PillyModel.xcdatamodel; sourceTree = "<group>"; };
 		712221A12268C8A1000879D7 /* Pilly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pilly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		712221A42268C8A1000879D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		712221A62268C8A1000879D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +79,26 @@
 		712221C02268C8A3000879D7 /* PillyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PillyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		712221C42268C8A3000879D7 /* PillyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillyUITests.swift; sourceTree = "<group>"; };
 		712221C62268C8A3000879D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		712221D32268E1A2000879D7 /* UiViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewX.swift; sourceTree = "<group>"; };
+		712221D52268E1FE000879D7 /* UIButtonX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		712221D82268E33D000879D7 /* MedicationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationVC.swift; sourceTree = "<group>"; };
+		712221DA22694EFF000879D7 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		712221DD22694FA1000879D7 /* ExtensionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionVC.swift; sourceTree = "<group>"; };
+		712221DF2269598D000879D7 /* AddMedicationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedicationVC.swift; sourceTree = "<group>"; };
+		712221E12269EFF6000879D7 /* RefillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefillVC.swift; sourceTree = "<group>"; };
+		712875A6226DCA6600154CB8 /* ScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleVC.swift; sourceTree = "<group>"; };
+		714BAFAB226B6784006BC370 /* Colortheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colortheme.swift; sourceTree = "<group>"; };
+		714BAFAD226B6AF4006BC370 /* colorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorCell.swift; sourceTree = "<group>"; };
+		71530443226B2F3E00044E7E /* RoundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImage.swift; sourceTree = "<group>"; };
+		71530448226B3EF400044E7E /* DosageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DosageVC.swift; sourceTree = "<group>"; };
+		7153044A226B3FC300044E7E /* ColorPhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPhotoVC.swift; sourceTree = "<group>"; };
+		717665CA226ED1B6002660F4 /* SelctSoudVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelctSoudVC.swift; sourceTree = "<group>"; };
+		7188401A2271819E00445886 /* MedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedTableViewCell.swift; sourceTree = "<group>"; };
+		71DBCE31227ABB9000B1F06A /* PrivacyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyVC.swift; sourceTree = "<group>"; };
+		71DBCE33227ABE4B00B1F06A /* PrivacyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyCell.swift; sourceTree = "<group>"; };
+		71DBCE35227B1DD500B1F06A /* ReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderVC.swift; sourceTree = "<group>"; };
+		71F83126227B607B00E1D68E /* ReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
+		84FEA6978FA26A8A582F1FC9 /* Pods-Pilly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pilly.release.xcconfig"; path = "Target Support Files/Pods-Pilly/Pods-Pilly.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5BE7255950BBE670DEA0DDA /* Pods_Pilly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +127,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7103F3BB227C13AF0087D036 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				7103F3BC227C143B0087D036 /* DateTableViewCell.swift */,
+				7103F3BD227C143B0087D036 /* DateTableViewCell.xib */,
+				7103F3C0227C14690087D036 /* DatePickerTableViewCell.swift */,
+				7103F3C1227C14690087D036 /* DatePickerTableViewCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
 		712221982268C8A1000879D7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +145,8 @@
 				712221B82268C8A3000879D7 /* PillyTests */,
 				712221C32268C8A3000879D7 /* PillyUITests */,
 				712221A22268C8A1000879D7 /* Products */,
+				C1A79B163C5FF57DE604B94F /* Pods */,
+				F1D2F1C5583A2FDD7FC9889E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +163,18 @@
 		712221A32268C8A1000879D7 /* Pilly */ = {
 			isa = PBXGroup;
 			children = (
+				7103F3BB227C13AF0087D036 /* XIB */,
+				714BAFAA226B673F006BC370 /* Theme */,
+				71530445226B341500044E7E /* Cell */,
+				712221DC22694F7F000879D7 /* EntensionVC */,
+				712221D72268E31D000879D7 /* ViewController */,
+				712221D22268E094000879D7 /* Designable */,
 				712221A42268C8A1000879D7 /* AppDelegate.swift */,
 				712221A62268C8A1000879D7 /* ViewController.swift */,
 				712221A82268C8A1000879D7 /* Main.storyboard */,
 				712221AB2268C8A3000879D7 /* Assets.xcassets */,
 				712221AD2268C8A3000879D7 /* LaunchScreen.storyboard */,
+				7107F6CD226B22DC00DE29CD /* PillyModel.xcdatamodeld */,
 				712221B02268C8A3000879D7 /* Info.plist */,
 			);
 			path = Pilly;
@@ -125,6 +198,77 @@
 			path = PillyUITests;
 			sourceTree = "<group>";
 		};
+		712221D22268E094000879D7 /* Designable */ = {
+			isa = PBXGroup;
+			children = (
+				712221D32268E1A2000879D7 /* UiViewX.swift */,
+				712221D52268E1FE000879D7 /* UIButtonX.swift */,
+				71530443226B2F3E00044E7E /* RoundImage.swift */,
+			);
+			path = Designable;
+			sourceTree = "<group>";
+		};
+		712221D72268E31D000879D7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				712221D82268E33D000879D7 /* MedicationVC.swift */,
+				712221DA22694EFF000879D7 /* SideMenuVC.swift */,
+				712221DF2269598D000879D7 /* AddMedicationVC.swift */,
+				712221E12269EFF6000879D7 /* RefillVC.swift */,
+				71530448226B3EF400044E7E /* DosageVC.swift */,
+				7153044A226B3FC300044E7E /* ColorPhotoVC.swift */,
+				712875A6226DCA6600154CB8 /* ScheduleVC.swift */,
+				717665CA226ED1B6002660F4 /* SelctSoudVC.swift */,
+				71DBCE31227ABB9000B1F06A /* PrivacyVC.swift */,
+				71DBCE35227B1DD500B1F06A /* ReminderVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		712221DC22694F7F000879D7 /* EntensionVC */ = {
+			isa = PBXGroup;
+			children = (
+				712221DD22694FA1000879D7 /* ExtensionVC.swift */,
+			);
+			path = EntensionVC;
+			sourceTree = "<group>";
+		};
+		714BAFAA226B673F006BC370 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				714BAFAB226B6784006BC370 /* Colortheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		71530445226B341500044E7E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				714BAFAD226B6AF4006BC370 /* colorCell.swift */,
+				7188401A2271819E00445886 /* MedTableViewCell.swift */,
+				71DBCE33227ABE4B00B1F06A /* PrivacyCell.swift */,
+				71F83126227B607B00E1D68E /* ReminderCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C1A79B163C5FF57DE604B94F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B9101565BF93EDEAF914567 /* Pods-Pilly.debug.xcconfig */,
+				84FEA6978FA26A8A582F1FC9 /* Pods-Pilly.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1D2F1C5583A2FDD7FC9889E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				052E1977EB270A17C589FA57 /* Pods_Pilly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 712221C92268C8A3000879D7 /* Build configuration list for PBXNativeTarget "Pilly" */;
 			buildPhases = (
+				5858707019522C447531A12F /* [CP] Check Pods Manifest.lock */,
 				7122219D2268C8A1000879D7 /* Sources */,
 				7122219E2268C8A1000879D7 /* Frameworks */,
 				7122219F2268C8A1000879D7 /* Resources */,
+				A49856069084E06879EDF388 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +378,8 @@
 				712221AF2268C8A3000879D7 /* LaunchScreen.storyboard in Resources */,
 				712221AC2268C8A3000879D7 /* Assets.xcassets in Resources */,
 				712221AA2268C8A1000879D7 /* Main.storyboard in Resources */,
+				7103F3BF227C143B0087D036 /* DateTableViewCell.xib in Resources */,
+				7103F3C3227C14690087D036 /* DatePickerTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +399,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5858707019522C447531A12F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pilly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A49856069084E06879EDF388 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pilly/Pods-Pilly-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DatePicker/DatePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Extended/Extended.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DatePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Extended.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pilly/Pods-Pilly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7122219D2268C8A1000879D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7107F6CF226B22DC00DE29CD /* PillyModel.xcdatamodeld in Sources */,
+				717665CB226ED1B6002660F4 /* SelctSoudVC.swift in Sources */,
+				7103F3BE227C143B0087D036 /* DateTableViewCell.swift in Sources */,
+				7153044B226B3FC300044E7E /* ColorPhotoVC.swift in Sources */,
+				71F83127227B607B00E1D68E /* ReminderCell.swift in Sources */,
+				71DBCE36227B1DD500B1F06A /* ReminderVC.swift in Sources */,
+				712221DE22694FA1000879D7 /* ExtensionVC.swift in Sources */,
+				712221D62268E1FE000879D7 /* UIButtonX.swift in Sources */,
+				71530444226B2F3E00044E7E /* RoundImage.swift in Sources */,
+				71DBCE34227ABE4B00B1F06A /* PrivacyCell.swift in Sources */,
+				71530449226B3EF400044E7E /* DosageVC.swift in Sources */,
+				71DBCE32227ABB9000B1F06A /* PrivacyVC.swift in Sources */,
+				712221D42268E1A2000879D7 /* UiViewX.swift in Sources */,
+				712221DB22694EFF000879D7 /* SideMenuVC.swift in Sources */,
+				712875A7226DCA6600154CB8 /* ScheduleVC.swift in Sources */,
 				712221A72268C8A1000879D7 /* ViewController.swift in Sources */,
+				712221D92268E33D000879D7 /* MedicationVC.swift in Sources */,
+				7188401B2271819E00445886 /* MedTableViewCell.swift in Sources */,
 				712221A52268C8A1000879D7 /* AppDelegate.swift in Sources */,
+				714BAFAC226B6784006BC370 /* Colortheme.swift in Sources */,
+				712221E02269598D000879D7 /* AddMedicationVC.swift in Sources */,
+				712221E22269EFF6000879D7 /* RefillVC.swift in Sources */,
+				714BAFAE226B6AF4006BC370 /* colorCell.swift in Sources */,
+				7103F3C2227C14690087D036 /* DatePickerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +653,7 @@
 		};
 		712221CA2268C8A3000879D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9101565BF93EDEAF914567 /* Pods-Pilly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +672,7 @@
 		};
 		712221CB2268C8A3000879D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84FEA6978FA26A8A582F1FC9 /* Pods-Pilly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -586,6 +811,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7107F6CD226B22DC00DE29CD /* PillyModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7107F6CE226B22DC00DE29CD /* PillyModel.xcdatamodel */,
+			);
+			currentVersion = 7107F6CE226B22DC00DE29CD /* PillyModel.xcdatamodel */;
+			path = PillyModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 712221992268C8A1000879D7 /* Project object */;
 }

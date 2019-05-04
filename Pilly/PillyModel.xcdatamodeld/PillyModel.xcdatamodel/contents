@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PillyMedcine" representedClassName="PillyMedcine" syncable="YES" codeGenerationType="class">
+        <attribute name="colour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="daysvalues" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dosage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enddate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="frequency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noindays" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="pilleft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reminder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rmtime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sdate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="sound" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specficdaycount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Reminder" representedClassName="Reminder" syncable="YES" codeGenerationType="class">
+        <attribute name="dosage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nooftime" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pillname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="remtimes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TimesRem" inverseName="times" inverseEntity="TimesRem" syncable="YES"/>
+    </entity>
+    <entity name="TimesRem" representedClassName="TimesRem" syncable="YES" codeGenerationType="class">
+        <attribute name="time" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="times" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Reminder" inverseName="remtimes" inverseEntity="Reminder" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PillyMedcine" positionX="-63" positionY="-18" width="128" height="255"/>
+        <element name="Reminder" positionX="32.34765625" positionY="251.80078125" width="128" height="133"/>
+        <element name="TimesRem" positionX="127.21875" positionY="75.0390625" width="128" height="75"/>
+    </elements>
+</model>
